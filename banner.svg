@@ -1,58 +1,137 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200">
-  <!-- Solid neutral dark background -->
-  <rect width="1200" height="200" fill="#0d1117"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="auto" role="img" aria-label="Andry Emiliano — Backend Developer">
+  <title>Andry Emiliano — Backend Developer</title>
 
-  <!-- Subtle accent line (left) -->
-  <rect x="0" y="0" width="6" height="200" fill="#58a6ff"/>
-
-  <!-- Subtle grid pattern (very low opacity) -->
   <defs>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262d" stroke-width="1"/>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1A0808"/>
+      <stop offset="0.55" stop-color="#120606"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#E53935" stop-opacity="0.42"/>
+      <stop offset="0.6" stop-color="#E53935" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#E53935" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF6B6B">
+        <animate attributeName="stop-color" values="#FF6B6B;#E53935;#FF3B30;#FF6B6B" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#E53935"/>
+      <stop offset="1" stop-color="#FF3B30">
+        <animate attributeName="stop-color" values="#FF3B30;#FF5252;#E53935;#FF3B30" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="pawGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF5252"/>
+      <stop offset="1" stop-color="#C62828"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scanGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#E53935" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FF5252" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#E53935" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#2a0d0d" stroke-width="1"/>
     </pattern>
+    <mask id="nameMask">
+      <rect width="900" height="220" fill="#000"/>
+      <text x="148" y="100" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="50" font-weight="800" fill="#fff" letter-spacing="0.5">Andry Emiliano</text>
+    </mask>
+    <clipPath id="clip1"><rect x="148" y="126" width="225" height="34"><animate attributeName="width" values="0;0;225;225;0" keyTimes="0;0.0104;0.1417;0.2396;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clip2"><rect x="148" y="126" width="344" height="34"><animate attributeName="width" values="0;0;344;344;0" keyTimes="0;0.2604;0.3917;0.4896;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clip3"><rect x="148" y="126" width="475" height="34"><animate attributeName="width" values="0;0;475;475;0" keyTimes="0;0.5104;0.6417;0.7396;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clip4"><rect x="148" y="126" width="317" height="34"><animate attributeName="width" values="0;0;317;317;0" keyTimes="0;0.7604;0.8917;0.9896;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
   </defs>
-  <rect x="6" y="0" width="1194" height="200" fill="url(#grid)" opacity="0.4"/>
 
-  <!-- Name -->
-  <text x="60" y="100"
-        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-        font-size="52"
-        font-weight="700"
-        fill="#f0f6fc">ElRed_26</text>
+  <style>@media (prefers-reduced-motion:reduce){animate,animateTransform{display:none}}</style>
 
-  <!-- Role -->
-  <text x="60" y="135"
-        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-        font-size="18"
-        font-weight="400"
-        fill="#8b949e">Backend Developer · Python &amp; C# · Santo Domingo, DO</text>
+  <rect width="900" height="220" fill="url(#bgGrad)"/>
+  <ellipse cx="320" cy="96" rx="380" ry="120" fill="url(#glow)">
+    <animate attributeName="rx" values="380;420;380" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="7s" repeatCount="indefinite"/>
+  </ellipse>
+  <rect width="900" height="220" fill="url(#grid)" opacity="0.5"/>
+  <rect x="0" y="0" width="900" height="3" fill="url(#scanGrad)"/>
+  <rect x="0" y="217" width="900" height="3" fill="url(#scanGrad)" opacity="0.6"/>
+  <rect x="0" y="0" width="6" height="220" fill="#E53935">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- Right-side meta info -->
-  <text x="1140" y="60"
-        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-        font-size="13"
-        font-weight="500"
-        fill="#8b949e"
-        text-anchor="end">$ whoami</text>
-  <text x="1140" y="82"
-        font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace"
-        font-size="14"
-        font-weight="600"
-        fill="#58a6ff"
-        text-anchor="end">andry@ElRed261 ~ %</text>
+  <g transform="translate(74 110)">
+    <circle cx="0" cy="0" r="46" fill="#E53935" opacity="0.18">
+      <animate attributeName="r" values="44;52;44" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.18;0.34;0.18" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="34" fill="none" stroke="#E53935" stroke-width="1.5" opacity="0.6">
+      <animate attributeName="r" values="30;38;30" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.65;0.2;0.65" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="3.2s" repeatCount="indefinite"/>
+      <ellipse cx="0" cy="14" rx="24" ry="19" fill="url(#pawGrad)"/>
+      <circle cx="-25" cy="-13" r="8" fill="url(#pawGrad)"/>
+      <circle cx="-9" cy="-22" r="9" fill="url(#pawGrad)"/>
+      <circle cx="9" cy="-22" r="9" fill="url(#pawGrad)"/>
+      <circle cx="25" cy="-13" r="8" fill="url(#pawGrad)"/>
+    </g>
+  </g>
 
-  <!-- Bottom status bar -->
-  <text x="60" y="170"
-        font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace"
-        font-size="12"
-        fill="#7d8590">→ Backend · Automation · Python · C# · SQL</text>
+  <text x="148" y="100" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="50" font-weight="800" fill="url(#nameGrad)" letter-spacing="0.5">Andry Emiliano</text>
+  <rect x="-220" y="50" width="170" height="62" fill="url(#sheen)" mask="url(#nameMask)" rx="8">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="1080 0" dur="5s" begin="1.2s" repeatCount="indefinite"/>
+  </rect>
 
-  <text x="1140" y="170"
-        font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace"
-        font-size="12"
-        fill="#7d8590"
-        text-anchor="end">status: open to opportunities</text>
+  <text x="812" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#E53935" text-anchor="end" opacity="0.85">&gt;_ lbo.red</text>
 
-  <!-- Tiny status dot -->
-  <circle cx="1126" cy="166" r="4" fill="#3fb950"/>
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.0021;0.0104;0.2396;1" dur="24s" repeatCount="indefinite"/>
+    <g clip-path="url(#clip1)"><text x="148" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#C9D1D9">Backend Developer</text></g>
+    <rect x="148" y="128" width="11" height="24" rx="1.5" fill="#E53935">
+      <animate attributeName="x" values="148;148;373;373;148" keyTimes="0;0.0104;0.1417;0.2396;1" dur="24s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.05s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2521;0.2604;0.4896;1" dur="24s" repeatCount="indefinite"/>
+    <g clip-path="url(#clip2)"><text x="148" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#C9D1D9">Python · C# · AI-augmented</text></g>
+    <rect x="148" y="128" width="11" height="24" rx="1.5" fill="#E53935">
+      <animate attributeName="x" values="148;148;492;492;148" keyTimes="0;0.2604;0.3917;0.4896;1" dur="24s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.05s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5021;0.5104;0.7396;1" dur="24s" repeatCount="indefinite"/>
+    <g clip-path="url(#clip3)"><text x="148" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#C9D1D9">Building reliable automation systems</text></g>
+    <rect x="148" y="128" width="11" height="24" rx="1.5" fill="#E53935">
+      <animate attributeName="x" values="148;148;623;623;148" keyTimes="0;0.5104;0.6417;0.7396;1" dur="24s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.05s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.7521;0.7604;0.9896;1" dur="24s" repeatCount="indefinite"/>
+    <g clip-path="url(#clip4)"><text x="148" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#C9D1D9">Open to remote US roles</text></g>
+    <rect x="148" y="128" width="11" height="24" rx="1.5" fill="#E53935">
+      <animate attributeName="x" values="148;148;465;465;148" keyTimes="0;0.7604;0.8917;0.9896;1" dur="24s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.05s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <text x="148" y="184" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#7d8590">Santo Domingo, DO</text>
+  <text x="812" y="184" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#7d8590" text-anchor="end">
+    <animate attributeName="fill" values="#7d8590;#E53935;#7d8590" dur="2.6s" repeatCount="indefinite"/>
+    English: B2 · open to remote US roles
+  </text>
+
+  <rect x="0" y="44" width="900" height="2" fill="url(#scanGrad)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 130;0 0" dur="8s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    <animate attributeName="opacity" values="0;0.6;0.6;0" keyTimes="0;0.1;0.9;1" dur="8s" repeatCount="indefinite"/>
+  </rect>
 </svg>
