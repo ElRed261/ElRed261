@@ -42,10 +42,9 @@
       <rect width="900" height="220" fill="#000"/>
       <text x="148" y="100" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="50" font-weight="800" fill="#fff" letter-spacing="0.5">Andry Emiliano</text>
     </mask>
-    <clipPath id="clip1"><rect x="148" y="126" width="225" height="34"><animate attributeName="width" values="0;0;225;225;0" keyTimes="0;0.0104;0.1417;0.2396;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="clip2"><rect x="148" y="126" width="344" height="34"><animate attributeName="width" values="0;0;344;344;0" keyTimes="0;0.2604;0.3917;0.4896;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="clip3"><rect x="148" y="126" width="475" height="34"><animate attributeName="width" values="0;0;475;475;0" keyTimes="0;0.5104;0.6417;0.7396;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="clip4"><rect x="148" y="126" width="317" height="34"><animate attributeName="width" values="0;0;317;317;0" keyTimes="0;0.7604;0.8917;0.9896;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clip1"><rect x="148" y="126" width="225" height="34"><animate attributeName="width" values="0;0;225;225;0;0" keyTimes="0;0.0208;0.125;0.2917;0.325;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clip2"><rect x="148" y="126" width="344" height="34"><animate attributeName="width" values="0;0;344;344;0;0" keyTimes="0;0.3458;0.4708;0.625;0.6583;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clip3"><rect x="148" y="126" width="475" height="34"><animate attributeName="width" values="0;0;475;475;0;0" keyTimes="0;0.6792;0.825;0.9583;0.9792;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
   </defs>
 
   <style>@media (prefers-reduced-motion:reduce){animate,animateTransform{display:none}}</style>
@@ -89,37 +88,28 @@
   <text x="812" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#E53935" text-anchor="end" opacity="0.85">&gt;_ lbo.red</text>
 
   <g>
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.0021;0.0104;0.2396;1" dur="24s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.0208;0.325;0.335;1" dur="24s" repeatCount="indefinite"/>
     <g clip-path="url(#clip1)"><text x="148" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#C9D1D9">Backend Developer</text></g>
     <rect x="148" y="128" width="11" height="24" rx="1.5" fill="#E53935">
-      <animate attributeName="x" values="148;148;373;373;148" keyTimes="0;0.0104;0.1417;0.2396;1" dur="24s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="148;148;373;373;148" keyTimes="0;0.0208;0.125;0.325;1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.05s" repeatCount="indefinite"/>
     </rect>
   </g>
 
   <g>
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2521;0.2604;0.4896;1" dur="24s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.3458;0.6583;0.6683;1" dur="24s" repeatCount="indefinite"/>
     <g clip-path="url(#clip2)"><text x="148" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#C9D1D9">Python · C# · AI-augmented</text></g>
     <rect x="148" y="128" width="11" height="24" rx="1.5" fill="#E53935">
-      <animate attributeName="x" values="148;148;492;492;148" keyTimes="0;0.2604;0.3917;0.4896;1" dur="24s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="148;148;492;492;148" keyTimes="0;0.3458;0.4708;0.6583;1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.05s" repeatCount="indefinite"/>
     </rect>
   </g>
 
   <g>
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5021;0.5104;0.7396;1" dur="24s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.6792;0.9792;0.9892;1" dur="24s" repeatCount="indefinite"/>
     <g clip-path="url(#clip3)"><text x="148" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#C9D1D9">Building reliable automation systems</text></g>
     <rect x="148" y="128" width="11" height="24" rx="1.5" fill="#E53935">
-      <animate attributeName="x" values="148;148;623;623;148" keyTimes="0;0.5104;0.6417;0.7396;1" dur="24s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.05s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-
-  <g>
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.7521;0.7604;0.9896;1" dur="24s" repeatCount="indefinite"/>
-    <g clip-path="url(#clip4)"><text x="148" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#C9D1D9">Open to remote US roles</text></g>
-    <rect x="148" y="128" width="11" height="24" rx="1.5" fill="#E53935">
-      <animate attributeName="x" values="148;148;465;465;148" keyTimes="0;0.7604;0.8917;0.9896;1" dur="24s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="148;148;623;623;148" keyTimes="0;0.6792;0.825;0.9792;1" dur="24s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.05s" repeatCount="indefinite"/>
     </rect>
   </g>
@@ -127,7 +117,7 @@
   <text x="148" y="184" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#7d8590">Santo Domingo, DO</text>
   <text x="812" y="184" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#7d8590" text-anchor="end">
     <animate attributeName="fill" values="#7d8590;#E53935;#7d8590" dur="2.6s" repeatCount="indefinite"/>
-    English: B2 · open to remote US roles
+    English: B2 (CEFR)
   </text>
 
   <rect x="0" y="44" width="900" height="2" fill="url(#scanGrad)">

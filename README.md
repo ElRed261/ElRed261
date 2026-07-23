@@ -2,15 +2,6 @@
 <img src="https://raw.githubusercontent.com/ElRed261/ElRed261/main/banner.svg" alt="Andry Emiliano — Backend Developer" width="100%"/>
 </div>
 
-<br/>
-
-<div align="center">
-<b>Andry Emiliano</b> · Backend Developer · Santo Domingo, Dominican Republic 🇩🇴<br/>
-English: B2 (CEFR) &nbsp;·&nbsp; ✅ Open to remote work for US teams
-</div>
-
-<br/>
-
 ---
 
 <div align="center">
