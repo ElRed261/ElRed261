@@ -135,15 +135,7 @@ Strong fundamentals, ship real internal tooling that is used in production. <br/
 | Security | Endpoint Security | Cisco Networking Academy | 2023 |
 | Hardware | Cisco Printers UCAID | Cisco Networking Academy | 2024 |
 
----
 
-<div align="center">
-
-## 📈 Activity
-
-<img src="https://streak-stats.demolab.com/?user=ElRed261&theme=dark&hide_border=true&background=0D1117&stroke=E53935&ring=E53935&fire=E53935&currStreakLabel=E53935&dates=c9d1d9&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="GitHub streak stats" width="70%"/>
-
-</div>
 
 ---
 
