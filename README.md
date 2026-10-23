@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/ElRed261/ElRed261/main/banner-v2.svg" alt="Andry Emiliano — Data &amp; Analytics Engineer" width="100%"/>
+<img src="https://raw.githubusercontent.com/ElRed261/ElRed261/main/banner.svg" alt="Andry Emiliano — Data &amp; Analytics Engineer" width="100%"/>
 </div>
 
 ---
